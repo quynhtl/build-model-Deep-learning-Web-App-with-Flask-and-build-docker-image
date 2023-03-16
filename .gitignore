@@ -1,0 +1,4 @@
+.log
+
+enviroment
+models/*.hdf5
