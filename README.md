@@ -257,6 +257,14 @@ You notice above when mapping port, on the right is the port of the project runn
 
 Now we can access this web application from another machine via the machine's IP address and port 8888!
 
+Check IP:
+```
+$ hostname -I
+```
+
+```
+<name_IP>:8888
+```
 
 ## References
 [How to build a web application using Flask and deploy it to the CLoud](https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/)
