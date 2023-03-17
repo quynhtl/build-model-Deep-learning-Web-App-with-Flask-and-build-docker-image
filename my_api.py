@@ -21,7 +21,6 @@ def predict_label(img_path):
 	i = img_to_array(i)/255.0
 	i = i.reshape(1, 150,150,3)
 	prediction_prob = model.predict(i)[0][0]
-	#p = np.argmax(model.predict(i), axis=-1)
 	if prediction_prob < 0.5: # 0-0.5: cat, else dog
 		output = "cat"
 	else:
